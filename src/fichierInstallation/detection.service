@@ -1,0 +1,10 @@
+
+[Unit]
+Description=Service de gestion de la detection du son et de la présence
+
+[Service]
+Type=simple
+ExecStart=/home/pi/Applications/scripts_detection/lancementDetection.sh
+
+[Install]
+WantedBy=multi-user.target
